@@ -141,7 +141,6 @@ void selectedItem(BuildContext context, int index) {
 // lo   que va en la pantalla de incio
 
 Widget cuerpo() {
-  var child;
   return Container(
     decoration: BoxDecoration(
         image: DecorationImage(

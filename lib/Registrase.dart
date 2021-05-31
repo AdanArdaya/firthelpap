@@ -49,13 +49,7 @@ class _MyAppState extends State<MyApp> {
             MaterialButton(
               minWidth: 200.0,
               height: 40.0,
-              onPressed: () {
-                Map<String, dynamic> data = {
-                  "field1": nombrecompleto.text,
-                  "field2": edad.text,
-                  "fiel3": sintomas.text,
-                };
-              },
+              onPressed: () {},
               color: Colors.lightBlue,
               child: Text('Enviar', style: TextStyle(color: Colors.white)),
             ),
